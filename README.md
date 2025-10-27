@@ -4,13 +4,23 @@
 #### Executive summary
 
 #### Rationale
-Why should anyone care about this question?
+Hockey games generate large amounts of performance data, from player-level statistics to team-level tactical metrics. While the final outcome of a game is influenced by numerous factors (player skills, team strategy, in-game dynamics, etc.), the ability to quantify and predict match results remains a major challenge.
+
+This analysis aims to develop machine learning models that predict the likelihood of a hockey team winning a match, and analyze which factors most heavily influence game outcomes. By leveraging historical game data, in-game statistics, and relevant contextual information, this analysis creates predictive models capable of capturing comple patterns and interactions that traditional statistical analysis might miss.
+
+The significance of this research extends across multiple stakeholder perpsectives:
+1) Hockey Teams: Teams want to optimize performance, both on and off the field. Insights derived from predictive models can inform tactical decisions, roster management, and training priorities. By understanding which factors most heavily influence match outcomes, teams can allocate resources more effectively, enhance player development, and maximize the likelihood of winning. This succcess directly impacts revenues from sale of tickets, merchandise, and sponsorships. 
+2) Players' Agents: Agents are invested in their clients' careers and market value. By understanding the statistical factors that contribute most to team success, agents can better advocate for players whose performance metrics align with winning outcomes, negotiate contracts, and identify teams where their clients are most likely to succeed.
+3) Journalists and Media Outlets: Predictive analytics and key factor identification provide journalists with compelling, data-backed narratives for reporting. Understanding which elements influence match outcomes enhances pre-match analysis, commentary, and post-match evaluations, offering audiences deeper insights into the game beyond traditional reporting.
+4) Sports Gambling Companies: Accurate predictive models enable bookmakers to set informed odds and provide bettors with data-driven strategies, translating statistical insights into financial returns within betting margins.
+
+This project combines analytics with domain-s-specific expertise to bridge the gap between raw data and actionable insights. By predicting game outcomes and highlighting the most influential factors, it supports strategic decision-makiing=ng in team management, player representation, sports journalism, and betting markets, demonstrating the transformatie potential of maching learning in professional hockey.
 
 #### Research Question
-What are you trying to answer?
+Which features most strongly influence hockey match outcomes, and how accurately can machine learning models predict a team's likelihood of winning based on those factors?
 
 #### Data Sources
-What data will you use to answer you question?
+This analysis uses the team-level data for all NHL games since 2008 provided by [MoneyPuck.com](https://moneypuck.com/data.htm).
 
 #### Methodology
 What methods are you using to answer the question?
