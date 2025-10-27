@@ -25,6 +25,10 @@ This analysis uses the team-level data for all NHL games since 2008 provided by 
 #### Methodology
 Data Cleaning
 
+Data Understanding - viewed description on the site, removed aggregate stats
+
+Removed insignificant data
+
 Analysis
 #### Results
 Accuracy across several models hovers from 80 - 84% and the influence of the different features is pretty consistent across different models. 
