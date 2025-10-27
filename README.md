@@ -19,7 +19,7 @@ The significance of this research extends across multiple stakeholder perpsectiv
 3) Journalists and Media Outlets: Predictive analytics and key factor identification provide journalists with data-supported narratives for reporting. Understanding which elements influence game outcomes enhances pre-game predictions, commentary, and post-game analysis, offering audiences deeper insights into the game beyond traditional reporting.
 4) Sports Gambling Companies: Accurate predictive models enable bookmakers to set informed odds and provide bettors with data-driven strategies, translating statistical insights into financial returns within betting margins.
 
-This project combines analytics with domain-specific expertise to bridge the gap between raw data and actionable insights. By predicting game outcomes and highlighting the most influential factors, it supports strategic decision-making in team management, player representation, sports journalism, and betting markets, demonstrating the transformative potential of maching learning in professional hockey.
+This project combines analytics with domain-specific expertise to bridge the gap between raw data and actionable insights. By predicting game outcomes and highlighting the most influential factors, it supports strategic decision-making in team management, player representation, sports journalism, and betting markets, demonstrating the potential of maching learning to enhance data analysis in professional hockey.
 
 #### Research Question
 Which features most strongly influence hockey game outcomes, and how accurately can machine learning models predict a team's likelihood of winning based on those factors?
@@ -29,7 +29,7 @@ This analysis uses the team-level data for all NHL games since 2008 provided by 
 
 #### Methodology
 Data Understanding
-A thorough review was conducted of the data documentation provided by MoneyPuck.com to understand the meaning and structure of different features. To maintain analytical consistency, fields containing aggregate or pre-processed statistics were remoed, ensuring that only game-level performance variables were included in the modeling process.
+A thorough review was conducted of the data documentation provided by MoneyPuck.com to understand the meaning and structure of different features. To maintain analytical consistency, fields containing aggregate or pre-processed statistics were removed, ensuring that only game-level performance variables were included in the modeling process.
 
 Data Preparation and Filtering
 A series of data cleaning and preprocessing steps were applied to create a conssitent and interpretable dataset:
@@ -73,6 +73,6 @@ Future work should focus on analyzing the factors that lead to goals, such as pa
 While the current models identify general predictors of success, the next phase of the analysis should focus on understanding the mechanisms behind the predictors. These additional findings would provide more actionable insights to coaches, analysts, and decision-makers trying to improve and better understand team performance.
 
 #### Outline of project
-- [Jupyter Notebook](https://github.com/KelseyLMay/capstone_final/capstone.ipynb)
-- [Images](https://github.com/KelseyLMay/capstone_final/images/) contains the boxplots used to develop an initial understanding of the impact of different features on game outcome.
-- [Dataset](https://github.com/KelseyLMay/capstone_final/data/all_teams_full.csv)
+- [Jupyter Notebook](https://github.com/KelseyLMay/capstone_final/blob/main/capstone.ipynb)
+- [Images](https://github.com/KelseyLMay/capstone_final/tree/main/images) contains the boxplots used to develop an initial understanding of the impact of different features on game outcome.
+- [Dataset](https://github.com/KelseyLMay/capstone_final/blob/main/data/all_teams_full.csv)
