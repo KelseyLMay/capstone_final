@@ -2,7 +2,7 @@
 **Kelsey May**
 
 #### Executive summary
-This research project applied machine learning techniques to analyze NHL hockey data and identify the factors that most strongly influence whether a team wins or loses a game. Using a cleaned and filtered datset derived from MoneyPuck.com, several classification models were developed to predict game outcomes based on game-level performance metrics. The accuracy of the models ranged from 80-84%, indicating a high level of consistency and predictive reliability. The influence of different features was also stable across modeling approaches, suggesting the relationships are not dependent on algorithmic variation.
+This research project applied machine learning techniques to analyze NHL hockey data and identify the factors that most strongly influence whether a team wins or loses a game. Using a cleaned and filtered datset derived from MoneyPuck.com, several classification models were developed to predict game outcomes based on game-level performance metrics. The accuracy of the models ranged from 80-83%, indicating a high level of consistency and predictive reliability. The influence of different features was also stable across modeling approaches, suggesting the relationships are not dependent on algorithmic variation.
 
 Overall, the models indicated that scoring metrics were the strongest prediction of success, but not all shot-related metrics were beneficial. The findings suggested that shot quality and conversion efficiency are more important than sheer volume. Similarly, contextual factors such as game location play smaller yet significant roles. On the other hand, penalties, fatigue, and late-season team disruptions increase the likelihood of losing.
 
@@ -46,7 +46,7 @@ Analysis
 The cleaned dataset was divided into training and testing datasets to evaluate model performance on unseen data. Numerical features were standardized, and categorical variables were one-hot encoded to ensure compatibility with the algorithms. Cross validation was used to ensure model reliability and mitigate overfitting. This preprocessed dataset was then used to build a number of models aimed at predicting game outcomes and identifying the variables most influential in determining a team's likelihood of winning. 
 
 #### Results
-Accuracy across several models hovers from 80 - 84% and the influence of the different features is pretty consistent across different models. 
+Accuracy across several models hovers from 80 - 83% and the influence of the different features is pretty consistent across different models. 
 
 The key positive predictors that influenced the likelihood that a team would win the game were as follows:
 1) number of goals. Teams with more goals were substantially more likely to win the game. All types of goal quality metrics were strong contributors, indicating that scoring in any danger category drives success.
